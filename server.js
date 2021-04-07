@@ -99,6 +99,6 @@ app.get("/valid",(req,res)=>{
 
 let port = process.env.PORT || 6000;
 app.listen(port, () => {
-console.log(`Example app listening at http://localhost:${port}`)
+console.log(`app listening at http://localhost:${port}`)
 
   });
